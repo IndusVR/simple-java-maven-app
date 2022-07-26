@@ -20,12 +20,14 @@
   </properties>
   
   <!-- Adding repositories -->
-    <repositories>
+  
+   <distributionManagement>
         <repository>
             <id>nexus</id>
             <url>http://localhost:8081/repository/forked-simple-maven-app/</url>
         </repository>   
-  </repositories>
+     </distributionManagement>
+  
   
   <build>
     <pluginManagement>
