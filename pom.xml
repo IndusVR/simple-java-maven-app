@@ -24,7 +24,7 @@
    <distributionManagement>
         <repository>
             <id>Nexus</id>
-            <url>http://localhost:8081/repository/forked-simple-maven-app/</url>
+            <url>http://localhost:8081/repository/forked_maven_release/</url>
         </repository>   
      </distributionManagement>
   
