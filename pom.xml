@@ -4,7 +4,7 @@
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <packaging>war</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>5.0-RELEASE</version>
   <name>my-app</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -20,13 +20,13 @@
   </properties>
   
   <!-- Adding repositories -->
-  <!--
+  
    <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>Nexus</id>
             <url>http://localhost:8081/repository/forked-simple-maven-app/</url>
         </repository>   
-     </distributionManagement> -->
+     </distributionManagement>
   
   
   <build>
